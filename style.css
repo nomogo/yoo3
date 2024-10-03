@@ -93,9 +93,8 @@ footer#footer {
 @media (max-width: 700px) { /* Pour les tablettes et plus grand */
     nav#nav {
         flex-direction: column; 
-         /* Liste horizontale */
         position: absolute;
-        left: 0px;
-        top: 109px; /* Liste horizontale */
+        left: -2px;
+        top: 1011px; /* Liste horizontale */
     }
 }
