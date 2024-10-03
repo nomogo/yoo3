@@ -90,3 +90,12 @@ footer#footer {
     padding: 10px 0;
     text-align: center;
 }
+@media (max-width: 700px) { /* Pour les tablettes et plus grand */
+    nav#nav {
+        flex-direction: column; 
+         /* Liste horizontale */
+        position: absolute;
+        left: 0px;
+        top: 109px; /* Liste horizontale */
+    }
+}
