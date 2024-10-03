@@ -94,7 +94,7 @@ footer#footer {
     nav#nav {
         flex-direction: column; 
         position: absolute;
-        left: -2px;
-        top: 1011px; /* Liste horizontale */
+        left: -1px;
+        top: 10px; /* Liste horizontale */
     }
 }
