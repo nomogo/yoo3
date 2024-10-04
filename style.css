@@ -60,13 +60,15 @@ main#main {
     padding: 20px 0;
      width: 100%;
     border-collapse: callapse;
+    position:relative;
+    left: 390px;
     
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    text-align: left;
+    text-align: rigth;
 }
 
 th, td {
