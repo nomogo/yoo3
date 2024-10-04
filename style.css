@@ -59,7 +59,7 @@ nav#nav ul li a {
 main#main {
     padding: 20px 0;
     position:relative;
-    left: 390px;
+    left: 370px;
     
 }
 
@@ -185,7 +185,7 @@ header#list .lag{
         color: #fff;
         padding: 5px 0;
         text-align: left;
-        width: 133%;
+        width: 100%;
     }
 }
 
