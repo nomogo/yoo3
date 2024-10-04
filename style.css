@@ -111,13 +111,13 @@ footer#footer {
     header#list .log
     {
 
-        height: 100px;
+        height: 200px;
         width: 100%;
     }
     header#list .lag
     {
 
-        height: 100px;
+        height:200px;
         width: 100%;
     }
     
@@ -132,7 +132,7 @@ footer#footer {
         order: unset; /* Réinitialiser order */
     }
     header#header .logo {
-        height: 30px;
+        height: 40px;
         position: absolute;
         top: 17px;
         left: 10px;
