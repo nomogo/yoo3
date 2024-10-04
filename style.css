@@ -133,14 +133,14 @@ header#list .lag{
     main#main {
         flex-direction: column; /* Disposition verticale */
         gap: 20px; /* Ajouter un espace entre les éléments */
+        position:absolute;
+        top: 250px;
     }
 
-    .container, .list {
-        flex: 1; /* Prendre l'espace disponible */
-        order: unset; /* Réinitialiser order */
+    
     }
     header#header .logo {
-        height: 40px;
+        height: 50px;
         position: absolute;
         top: 17px;
         left: 10px;
@@ -154,12 +154,14 @@ header#list .lag{
         width: 100%; /* Prendre la largeur de l'écran */
     }
 
-    .container {
-        order: 2; /* Le tableau doit être affiché en deuxième */
+    header#list {
+        position: absolute;
+        top:700px /* La liste des liens doit être affichée en premier */
     }
+    header#reg{
+        position: absolute;
+        top:1900px;
 
-    .list {
-        order: 1; /* La liste des liens doit être affichée en premier */
     }
     th, td {
         border: 1px solid #ddd;
