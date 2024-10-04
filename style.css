@@ -180,5 +180,12 @@ header#list .lag{
     tr.impair {
         background-color: #fff;
     }
+    footer#footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
 }
 
