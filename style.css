@@ -92,6 +92,14 @@ footer#footer {
     padding: 10px 0;
     text-align: center;
 }
+    header#list .log{
+
+height: 250px;
+}
+header#list .lag{
+
+    height: 240px;
+    }
 }
 @media (max-width: 700px) { /* Pour les tablettes et plus grand */
     nav#nav {
